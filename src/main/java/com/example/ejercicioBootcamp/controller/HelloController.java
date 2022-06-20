@@ -26,7 +26,7 @@ public class HelloController {
                     <title>Hello, world!</title>
                   </head>
                   <body>
-                    <h1>Hola mundo desde Srping Boot!</h1>
+                    <h1>Hola mundo desde Srping Boot con heroku!</h1>
                      <a class="btn btn-primary" href="https://www.google.com"> Google </a>
                     <!-- Optional JavaScript; choose one of the two! -->
                                 
