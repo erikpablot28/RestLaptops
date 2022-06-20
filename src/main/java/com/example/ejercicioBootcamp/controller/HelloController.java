@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hola")
     public String holaMundo(){
-        return "Hola mundo que tal vamos!!! Hasta luego!";
+        return "Hola desde maquina virtual de heroku";
     }
 }
