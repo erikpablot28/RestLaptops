@@ -65,7 +65,7 @@ public class LaptopController {
         return laptopRepository.save(laptop);
     }
 
-    @PutMapping("api/laptops/")
+    @PutMapping("api/laptops")
     public ResponseEntity<Laptop> update (@RequestBody Laptop laptop){
         if(laptop.getId() == null){
             System.out.println("ERROR");
@@ -96,7 +96,7 @@ public class LaptopController {
 
         return ResponseEntity.noContent().build();
     }
-    @DeleteMapping("/api/laptops/")
+    @DeleteMapping("/api/laptops")
         public ResponseEntity<Laptop> deleteAll(){
         laptopRepository.deleteAll();
         log.info("REST Request for delete all books");
